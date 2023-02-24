@@ -1,0 +1,186 @@
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    ---Very-Pale-Blue: hsl(207, 100%, 98%);
+
+}
+
+html{
+    font-size: 62.25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    }
+
+main {
+    max-width: 37rem;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+@media(min-width:768px){
+    main{
+        margin-left: 0 auto;
+        text-align: center;
+    }
+}
+
+
+
+/*Header*/
+header {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+header a {
+    margin-left: 10rem;
+    text-decoration: none;
+    color: var(--Pink);
+    border: 0.10rem solid;
+    border-radius: 1rem;
+    text-align: center;
+}
+.logo {
+    max-width: 50%;
+}
+
+/*Part1*/
+
+.part1 {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: var(--Very-Dark-Cyan);
+    text-decoration: dashed;
+}
+
+.parra{
+    font-size: 2rem;
+}
+
+@media(min-width:768px){
+    h1{
+       font-size: 1.5rem; 
+    }
+    .parra{
+        font-size: 1.30rem;
+    }
+}
+
+.boto{
+
+    background-color: var(--Pink);
+    color:white;
+    border: 1px;
+    border-radius: 10rem;
+    width:65%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-decoration: double;
+}
+
+.sombra{
+    box-shadow: 1px 2px 7px 0px #050505;
+    padding: 2rem;
+    margin: 2rem 4rem;
+    border-radius: 1rem; 
+}
+
+.mockups{
+   max-width: 100%;
+}
+@media(min-width:768px){
+    .mockups{
+        max-width: 150%;
+    }
+}
+
+/*numeros*/
+
+.communities{
+    max-width: 10%;
+}
+
+
+.numeros h1{
+    font-size: 8rem;
+    color: var(--Very-Dark-Cyan);
+    text-align: center;
+}
+
+.numeros h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media (min-width:768px){
+    .numeros {
+        display: flex;
+        
+    }
+    .numero{
+    
+        margin-right: 8em;
+    }
+
+}
+
+/*Footer*/
+
+.caja1{
+    background-color:var(--Very-Dark-Cyan);
+    color: white;
+
+}
+
+
+.formulario legend{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+    
+.campo label{
+    display: block;
+    color: var(---amarillo);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    }
+
+ .input-text{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.boton{
+    background-color: var(--Pink);
+    padding: 1rem ;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: white;
+    font-weight: 700;
+    text-decoration:none ;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: none;
+    width: 80%;
+    text-align: center;
+    }
+
+.logos{
+    color: white;
+    margin-bottom: 2rem;
+}
